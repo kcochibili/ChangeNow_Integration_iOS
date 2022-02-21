@@ -23,6 +23,6 @@ Pod::Spec.new do |s|
 
   s.frameworks   = 'Foundation'
   s.source_files = 'CNIntegration/**/*.{h,m,swift}'
-  s.resources = 'CNIntegration/Resources/**/*.{xcassets,strings}'
+  s.resource_bundles = {‘CNIntegration’ => ['CNIntegration/Resources/**/*.{xcassets,strings}']}
 
 end
