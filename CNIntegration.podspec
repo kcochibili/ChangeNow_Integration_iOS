@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source                = { :git => 'https://github.com/ChangeNOW-lab/ChangeNow_Integration_iOS.git', :tag => s.version.to_s }
   
   s.dependency  'Moya', '~> 14.0'
-  s.dependency  'Kingfisher', '~> 5.14'
+  s.dependency  'Kingfisher'
   s.dependency  'PocketSVG', '~> 2.5'
   s.dependency  'R.swift', '~> 5.2'
   s.dependency  'CocoaLumberjack', '~> 3.6'
