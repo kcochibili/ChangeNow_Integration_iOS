@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.dependency  'CocoaLumberjack', '~> 3.6'
   s.dependency  'SnapKit', '~> 5.0'
   s.dependency  'NVActivityIndicatorView', '4.8.0'
-  s.dependency  'Resolver', '~> 1.1'
+  s.dependency  'Resolver', '1.1'
 
   s.frameworks   = 'Foundation'
   s.source_files = 'CNIntegration/**/*.{h,m,swift}'
